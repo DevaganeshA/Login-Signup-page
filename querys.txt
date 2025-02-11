@@ -1,0 +1,9 @@
+log in...log out form
+
+CREATE DATABASE signupforms;
+
+CREATE TABLE registration VALUES(id int primary key,username varchar(100),password varchar(100));
+
+SELECT * FROM `registration`;  (show table);
+
+ALTER TABLE `registration` ADD UNIQUE(`username`); (unique-never use exist same name)
